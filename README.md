@@ -1,12 +1,6 @@
 # OpenClaw AI-PRD Templates
 
-**Workflow:** GitHub-first systematized project planning and execution
-
----
-
-## 🎯 About
-
-This repository contains **AI-powered project templates** for CodeSpring-style software development. Use these templates to break down any project into 4 core components, research competitors, and receive complete PRDs (Frontend + Backend + Database) from Astro Boy AI.
+**Workflow:** GitHub-first systematized project planning and execution with AI-powered PRD generation
 
 ---
 
@@ -14,7 +8,7 @@ This repository contains **AI-powered project templates** for CodeSpring-style s
 
 ### Step 1: Create Project Folder
 ```bash
-# On your Mac - create a new project folder
+# On your Mac
 mkdir -p ~/my-projects/[PROJECT NAME]
 cd ~/my-projects/[PROJECT NAME]
 
@@ -35,94 +29,39 @@ git push origin main
 
 ### Step 3: Fill Out 4 Sections
 
-**Edit `[PROJECT NAME]-workflow.md` and fill in:**
+**Edit [PROJECT NAME]-workflow.md and fill in:**
 
 #### 1. TECH STACK
-- Frontend Framework: `[e.g., React, Vue, Next.js]`
-- Backend Framework: `[e.g., Node.js, Django, Rails]`
-- Database: `[e.g., Postgres, MongoDB, Supabase]`
-- Hosting: `[e.g., Vercel, Fly.io, AWS]`
-- AI Integration: `[e.g., Claude, Cursor, OpenAI]`
-- Authentication: `[e.g., Supabase Auth, Clerk, Custom]`
-- Primary APIs: `[List external APIs needed]`
-- Third-Party Services: `[List integrations required]`
-- Payment Processing: `[e.g., Stripe, Lemon Squeezy]`
+- Frontend Framework: [e.g., React, Vue, Next.js]
+- Backend Framework: [e.g., Node.js, Django, Rails]
+- Database: [e.g., Postgres, MongoDB, Supabase]
+- Hosting: [e.g., Vercel, Fly.io, AWS]
+- AI Integration: [e.g., Claude, Cursor, OpenAI]
+- Authentication: [e.g., Supabase Auth, Clerk, Custom]
+- Primary APIs & Services: [List external APIs needed]
+- Payment Processing: [e.g., Stripe, Lemon Squeezy]
 
 #### 2. COMPETITOR FEATURES
-**Top 3-5 Competitors:**
-
-**Competitor 1:** `[NAME]`
-- Features to Copy: `[List]`
-- Features to Improve: `[List]`
-- Pricing: `[Link or notes]`
-- Weaknesses: `[List]`
-
-**Competitor 2:** `[NAME]`
-- Features to Copy: `[List]`
-- Features to Improve: `[List]`
-- Pricing: `[Link or notes]`
-- Weaknesses: `[List]`
-
-**Competitor 3:** `[NAME]`
-- Features to Copy: `[List]`
-- Features to Improve: `[List]`
-- Pricing: `[Link or notes]`
-- Weaknesses: `[List]`
-
-**Differentiation Strategy:**
-- Unique Value Prop: `[What makes this different?]`
-- Market Position: `[Premium, Budget, Niche, etc.]`
+- Top 3-5 competitors:
+  - Features to copy
+  - Features to improve
+  - Pricing
+  - Weaknesses
+- Differentiation strategy
 
 #### 3. FEATURES
-
-**Core Features (MVP):**
-
-**Feature 1:** `[NAME]`
-- User Story: `[As a user, I want to...]`
-- Acceptance Criteria: `[How do we know it's done?]`
-- Complexity: `[Low | Medium | High]`
-
-**Feature 2:** `[NAME]`
-- User Story: `[As a user, I want to...]`
-- Acceptance Criteria: `[How do we know it's done?]`
-- Complexity: `[Low | Medium | High]`
-
-**Feature 3:** `[NAME]`
-- User Story: `[As a user, I want to...]`
-- Acceptance Criteria: `[How do we know it's done?]`
-- Complexity: `[Low | Medium | High]`
-
-**Nice-to-Have Features (Post-MVP):**
-- `[List prioritized features for v2, v3, etc.]`
+- Core Features (MVP):
+  - User story
+  - Acceptance criteria
+  - Complexity
 
 #### 4. TARGET AUDIENCE
+- Primary user persona
+- Secondary audiences
+- Success metrics
 
-**Primary User Persona:**
-- Demographics: `[Age, location, profession]`
-- Technical Level: `[Non-technical | Semi-technical | Technical]`
-- Pain Points: `[What problems do they have?]`
-- Goals: `[What are they trying to achieve?]`
+### Step 4: Gather Research
 
-**Secondary Audiences:**
-- `[List other user segments]`
-
-**Success Metrics:**
-- Key Metric 1: `[e.g., 10,000 app builds/month]`
-- Key Metric 2: `[e.g., 50% faster development]`
-- Key Metric 3: `[e.g., 90% user satisfaction]`
-
----
-
-## 📋 Step 4: Gather Research & Documentation
-
-### What to Collect
-- Market research (articles, reports, statistics)
-- User interviews or surveys
-- Competitor screenshots/websites
-- Existing documentation (if any)
-- Reference materials (similar apps, frameworks)
-
-### Create Research Folders
 ```bash
 cd ~/my-projects/[PROJECT NAME]
 mkdir -p research/competitors
@@ -131,20 +70,14 @@ mkdir -p research/market-analysis
 mkdir -p research/references
 ```
 
-### Upload Research
-Upload all PDFs, images, notes, screenshots to the appropriate research/ folder.
+Upload all PDFs, images, notes, screenshots to appropriate research/ folder.
 
----
+### Step 5: Contact Astro Boy for AI Analysis
 
-## 🤖 Step 5: Contact Astro Boy for AI Analysis
-
-### Message Template
-
-Send this message when you're ready for PRD generation:
+Send this message:
 
 ```
 I'm ready to analyze [PROJECT NAME]. I've filled out the workflow template with:
-
 - Tech Stack decisions
 - Competitor analysis
 - Feature breakdown
@@ -161,113 +94,80 @@ Please analyze everything in my research folder + my workflow template, then gen
 Ready when you are!
 ```
 
----
+### Step 6: Receive 3 Complete PRDs
 
-## 📄 Step 6: Receive 3 Complete PRDs
+Astro Boy will analyze all your research + workflow and generate:
 
-Astro Boy will analyze all your research and generate:
+- **Frontend PRD** - Tech stack confirmation, component breakdown, routes, state management
+- **Backend PRD** - API endpoints, business logic, authentication/authorization
+- **Database PRD** - Schema design, tables, relationships, indexes
 
-### Frontend PRD
-- Tech Stack Confirmation
-- Component Breakdown (Page 1, Page 2, Page 3)
-- State Management
-- UI/UX Patterns
+### Step 7: Review & Approve PRDs
 
-### Backend PRD
-- Tech Stack Confirmation
-- API Endpoints (GET, POST, PUT, DELETE)
-- Business Logic
-- Authentication/Authorization
+Read all 3 PRDs, ask questions, approve or refine as needed.
 
-### Database PRD
-- Schema Design
-- Relationships
-- Indexes
-- Performance Considerations
+### Step 8: Start Development
 
----
+Follow PRDs exactly - build pages, components, API endpoints, database tables.
 
-## 📋 Step 7: Review & Approve PRDs
+### Step 9: Update Progress
 
-Review all 3 PRDs carefully:
-
-1. Check for clarity
-2. Ask clarifying questions if needed
-3. Accept or refine PRDs
-4. Make adjustments as necessary
+Update your project workflow file as you complete work:
+- Mark completed items in implementation checklist
+- Track success metrics
+- Document learnings in notes
 
 ---
 
-## 📋 Step 8: Development Execution
-
-### Follow PRDs Exactly
-- Frontend PRD → Build pages, components, routes
-- Backend PRD → Build API endpoints, business logic
-- Database PRD → Create tables, relationships
-
-### Track Progress
-- Mark completed items as you go
-- Track blockers and ask for help when stuck
-
----
-
-## 📋 Step 9: Update Progress
-
-As you complete work, update your project workflow file:
-
-### Implementation Checklist
-- Mark what's done with `[x]`
-- Track what's in progress with `[ ]`
-
-### Success Metrics
-- Track actual performance vs targets
-
-### Iteration Plan
-- Plan next versions (v2, v3)
-
-### Notes
-- Document learnings, blockers, decisions
-
----
-
-## 📁 Project Structure (After Setup)
+## 📁 Complete System Architecture
 
 ```
-~/my-projects/[PROJECT NAME]/
-├── [PROJECT NAME]-workflow.md          # Main planning doc (4 sections)
-├── research/                           # All research docs
-│   ├── competitors/
-│   ├── user-interviews/
-│   ├── market-analysis/
-│   └── references/
-├── prd-frontend.md                    # Frontend specification (generated by Astro Boy)
-├── prd-backend.md                     # Backend specification (generated by Astro Boy)
-└── prd-database.md                    # Database design (generated by Astro Boy)
+┌─────────────────────────────────────┐
+│         GITHUB REPO                │
+│  (Templates live here)              │
+└─────────────────────────────────────┘
+              ↓
+    (Clone for each project)
+              ↓
+    ┌─────────────────────────────────┐
+    │  PROJECT FOLDER (.md)          │
+    │                             │
+    │ - [PROJECT]-workflow.md          │
+    │ - research/                     │
+    │   ├── competitors/              │
+    │   ├── user-interviews/          │
+    │   ├── market-analysis/            │
+    │   └── references/               │
+    │ - prd-frontend.md                │
+    │ - prd-backend.md                 │
+    │ - prd-database.md                │
+    │   (Generated by Astro Boy)       │
+    │   (Ready for coding)              │
+    └─────────────────────────────────┘
+              ↓
+    [Message Astro Boy]
+    "Ready to analyze [PROJECT NAME]"
+              ↓
+    ┌─────────────────────────────────┐
+    │   ASTRO BOY (AI Agent)        │
+    │   - 3 Complete PRDs               │
+    │   (Frontend + Backend + Database)  │
+    │   (Ready for coding)              │
+    └─────────────────────────────────┘
 ```
 
 ---
 
-## 🔄 Step 10: Repeat for Next Project
-
-When ready to start a new project:
-
-1. Create new project folder
-2. Clone workflow templates (or pull latest)
-3. Copy template for new project
-4. Repeat workflow from Steps 2-9
-
----
-
-## 🎯 Benefits of This System
+## 🎯 System Benefits
 
 ### Version Control
 - Every change tracked automatically
-- Full history of all project files
+- Full history of all projects
 - Easy to roll back if needed
 
 ### Bi-Directional Sync
-- You push updates from Mac
-- Astro Boy pulls updates from GitHub
+- You push updates from Mac → GitHub
+- Astro Boy pulls changes from GitHub
 - Both stay in sync automatically
 
 ### Professional Workflow
@@ -277,27 +177,98 @@ When ready to start a new project:
 
 ### Organization
 - All project files in one place
-- Consistent structure across all projects
+- Consistent structure across projects
 - Easy to search and reference
 
+### Memory Integration
+- All project PRDs and analysis stored in MEMORY.md
+- Fully searchable via `memory_search`
+- Patterns and learnings documented
+
 ---
 
-## 📚 Additional Templates
+## 🚀 External Tool Integration (NEW!)
 
-Available in this repository:
+### MCP Server Support
 
-### Workflow Guides
-- `project-workflow-template.md` - 4-component project structure
+OpenClaw now supports **external MCP servers** - tools like Cursor, Claude, and Lovable can connect directly!
+
+**How to Add Your Own MCP Server:**
+
+1. **Build your MCP server** using MCP protocol
+2. **Add to mcporter config:**
+   ```bash
+   mcporter add "https://your-server.com/mcp"
+   ```
+3. **External tools connect:**
+   - Cursor, Claude, Lovable connect to YOUR server
+   - Full CodeSpring-like functionality
+
+**See:** `memory/mcp-server-configuration.md` for complete details
+
+---
+
+## 📋 Available Templates
+
+### Core Templates
+- `project-workflow-template.md` - 4-component project structure (Tech Stack, Competitors, Features, Target Audience)
 - `code-workflow-implementation-guide.md` - Step-by-step usage instructions
-
-### CodeSpring Research
-- `codespring-complete-summary.md` - Complete feature breakdown (50+ sub-features)
+- `codespring-complete-summary.md` - Complete CodeSpring research (15,000+ words)
 - `codespring-master-index.md` - Quick reference index
 
+### Additional Guides
+- `memory/mcp-server-configuration.md` - How to add external MCP servers
+
 ---
 
-## 🚀 Get Started Now!
+## 🎯 CodeSpring Research Summary
 
-For your next project, follow the **Quick Start** steps above to break down any software project systematically and receive complete PRDs from AI.
+**Comprehensive analysis of 11 major feature areas with 50+ sub-features**
 
-**Questions?** Check `code-workflow-implementation-guide.md` for detailed step-by-step instructions.
+Complete research includes:
+- Visual mindmapping with node connections
+- Kanban task management (4 columns)
+- AI chat with context awareness
+- Scout automation agents
+- Checkpoints version control
+- MCP integration for Cursor, Claude, Lovable
+- Feature request system with upvoting
+- 8 immersive background environments
+- Ambient music player integration
+
+**Total Documentation:** 15,000+ words of detailed feature breakdowns
+
+---
+
+## 💾 Cost Savings
+
+**Without This System:**
+- CodeSpring subscription: ~$29.49/mo
+- Annual cost: ~$354/year
+
+**With This System:**
+- GitHub repo: $0 (included in current hosting)
+- AI agent (Astro Boy): Already available
+- Mcporter skill: Already installed
+- Project templates: Created once, reused forever
+- Total annual savings: ~$354/year
+
+**Quality Improvement:**
+- Customized to YOUR workflow (not generic)
+- Full control of infrastructure
+- No vendor lock-in
+- Better quality through personalization
+
+---
+
+## 🚀 Ready to Start!
+
+For your next project, follow the **Quick Start** steps above to break down any software project systematically and receive complete PRDs (Frontend + Backend + Database) ready for coding!
+
+**Questions?** See `memory/mcp-server-configuration.md` for MCP server setup, or review implementation guides.
+
+**Repository:** https://github.com/one7L/one7L-SAAS-AI-PRD-Templates
+
+---
+
+**Status:** 🟢 SYSTEM COMPLETE - READY FOR PRODUCTION
